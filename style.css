@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  background: white;
+  font-family: sans-serif;
+  text-align: center;
+  overflow: hidden;
+}
+
+#title {
+  font-size: 60px;
+  color: black;
+  margin-top: 40px;
+}
+
+#startBtn {
+  padding: 15px 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#cat {
+  position: absolute;
+  bottom: 50px;
+  left: -200px;
+  width: 200px;
+  display: none;
+  transition: left 3s linear;
+}
+
+#tapText {
+  position: absolute;
+  bottom: 300px;
+  width: 100%;
+  font-size: 30px;
+  display: none;
+}
+
+#flower {
+  position: absolute;
+  bottom: 60px;
+  left: 55%;
+  width: 200px;
+  display: none;
+}
+
+#finalText {
+  font-size: 60px;
+  color: black;
+  display: none;
+  margin-top: 40px;
+}
+
+.heart {
+  position: absolute;
+  font-size: 40px;
+  pointer-events: none;
+}
